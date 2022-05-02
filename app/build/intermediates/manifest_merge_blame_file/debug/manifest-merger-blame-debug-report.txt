@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.no_fa"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+12-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:6:5-76
+12-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:7:5-64
+13-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:9:5-67
+15-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:9:22-64
+16
+17    <application
+17-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:11:5-31:19
+18        android:allowBackup="false"
+18-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:12:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\zahha\.gradle\caches\transforms-3\adacc4bbdca3c037c01e5031782c646c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.NOFA"
+26-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:18:9-42
+27        android:usesCleartextTraffic="true" >
+27-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:17:9-44
+28        <activity
+28-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:19:9-21:40
+29            android:name="com.example.no_fa.activities.ScannerActivity"
+29-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:20:13-55
+30            android:exported="false" />
+30-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:21:13-37
+31        <activity
+31-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:22:9-30:20
+32            android:name="com.example.no_fa.activities.MainActivity"
+32-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:23:13-52
+33            android:exported="true" >
+33-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:24:13-36
+34            <intent-filter>
+34-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:26:17-69
+35-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:28:17-77
+37-->C:\Users\zahha\AndroidStudioProjects\NOFA\app\src\main\AndroidManifest.xml:28:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[androidx.room:room-runtime:2.4.2] C:\Users\zahha\.gradle\caches\transforms-3\ea026cc092deeba5c0a77622813dd84b\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+42            android:name="androidx.room.MultiInstanceInvalidationService"
+42-->[androidx.room:room-runtime:2.4.2] C:\Users\zahha\.gradle\caches\transforms-3\ea026cc092deeba5c0a77622813dd84b\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+43            android:directBootAware="true"
+43-->[androidx.room:room-runtime:2.4.2] C:\Users\zahha\.gradle\caches\transforms-3\ea026cc092deeba5c0a77622813dd84b\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+44            android:exported="false" />
+44-->[androidx.room:room-runtime:2.4.2] C:\Users\zahha\.gradle\caches\transforms-3\ea026cc092deeba5c0a77622813dd84b\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zahha\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zahha\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+48            android:authorities="com.example.no_fa.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zahha\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zahha\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zahha\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zahha\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zahha\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zahha\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zahha\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zahha\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>
